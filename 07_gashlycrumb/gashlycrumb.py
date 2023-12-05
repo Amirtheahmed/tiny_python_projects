@@ -16,7 +16,7 @@ def get_args():
     parser.add_argument(
         "letter",
         nargs="+",
-        help="Letters separated by spaces",
+        help="Letters separated by space",
         type=str,
     )
     parser.add_argument(
